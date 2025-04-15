@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecoma - Multivendor Ecommerce Shopping Platform</title>
+  <!-- favicon -->
+  <link rel="icon" href="assets/images/favicon.png" sizes="16x16" type="image/png" />
+  <!-- bootstrap 5  -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css" />
+  <!-- fontawesome 5  -->
+  <link rel="stylesheet" href="assets/css/lib/font-awesome.css" />
+  <!-- lineawesome font -->
+  <link rel="stylesheet" href="assets/css/lib/line-awesome.css" />
+  <!-- Simplebar Js  -->
+  <link rel="stylesheet" href="assets/css/lib/simplebar.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+  <header class="mobile-header">
+    <div class="container-fluid">
+      <div class="row g-4 align-items-center justify-content-between">
+        <div class="col-6">
+          <div class="text-start">
+            <button type="button" class="btn btn--sqr sidebar-toggler">
+              <i class="fas fa-bars"></i>
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-6">
+          <!-- Logo  -->
+
+          <!-- Logo End -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="doc">
+    <div class="doc__sidebar">
+      <button type="button" class="doc__sidebar_close d-lg-none">
+        <i class="las la-times"></i>
+      </button>
+      <div class="doc-logo">
+        <!-- Logo  -->
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="images" />
+        </a>
+        <!-- Logo End -->
+      </div>
+      <nav class="doc-nav" data-simplebar>
+        <ul class="list doc-nav__list">
+          <li>
+            <a href="#introduction" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="lar la-clone"></i> -->
+                <span class="d-block">introduction</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#server-req" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-server"></i> -->
+                <span class="d-block">server
+                  requirements</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#server-faq" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-question"></i> -->
+                <span class="d-block">server FAQ</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#installation" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-cog"></i> -->
+                <span class="d-block">Installation Guide</span></span> </a>
+          </li>
+          <li>
+            <a href="#activation" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-check-circle"></i> -->
+                <span class="d-block">how to activate </span></span>
+            </a>
+          </li>
+          <li>
+            <a href="#folder" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-folder"></i> -->
+                <span class="d-block">
+                  folder structure
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#customer-management" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-users"></i> -->
+                <span class="d-block">Customer Management</span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#product-management" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <span class="d-block">
+                  Product Management
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#promotional-tools" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <span class="d-block">
+                  Promotions
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#payment-management" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <span class="d-block">
+                  Payment Management
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#order-management" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-money-bill"></i> -->
+                <span class="d-block">
+                  Order Management
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#support-ticket" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="las la-ticket-alt"></i> -->
+                <span class="d-block">
+                  Support Ticket
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#settings" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-tools"></i> -->
+                <span class="d-block">
+                  Settings
+                </span>
+              </span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#notification-setting" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-bell"></i> -->
+                <span class="d-block">
+                  Notification Setting
+                </span>
+              </span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#frontend-manager" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-html5"></i> -->
+                <span class="d-block">
+                  Frontend Manager
+                </span>
+              </span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#extensions" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-cogs"></i> -->
+                <span class="d-block">
+                  extensions
+                </span>
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#language-manager" class="doc-nav__link nav-link">
+              <span class="list list--row align-items-center">
+                <!-- <i class="la la-language"></i> -->
+                <span class="d-block">
+                  language manager
+                </span>
+              </span>
+            </a>
+          </li>
+
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="doc__body">
+      <div class="header d-flex align-items-center justify-content-between">
+        <div>
+          <h5>Ecoma Documentation</h5>
+
+        </div>
+
+        <div>
+          <ul class="list gap-0">
+            <li class="p-0">
+              <strong>By :</strong>
+              <a href="https://codecanyon.net/user/viserlab" class="t-link">Viserlab</a>
+            </li>
+            <li class="p-0"><strong>Email :</strong> <a class="t-link"
+                href="mailto:support@viserlab.com">support@viserlab.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="introduction" class="section--sm section--first">
+
+        <div class="doc-body">
+          <h4 class="doc-head__title">Introduction</h4>
+
+          <p class="mb-1">
+            Welcome to the Ecoma - Multivendor Ecommerce Shopping Platform, your one-stop solution for launching and
+            managing
+            your online shopping business. Designed for entrepreneurs, our platform offers a user-friendly interface,
+            powerful features, and complete customization to help you start selling quickly and efficiently.
+          </p>
+
+          <h5 class="mt-3">Features Overview</h5>
+          <div class="ms-4">
+            <h6>Admin Panel Features</h6>
+            <ul>
+              <li><b>Dashboard</b>: A dashboard designed to track sales, orders, payments, and other essential metrics.
+              </li>
+              <li><b>Customer/User Management</b>: View, manage, and communicate with registered customers/user via
+                email, phone or firebase notification.</li>
+              <li><b>Category Management</b>: Create, edit, and delete categories to organize products.</li>
+              <li><b>Brand Management</b>: Create, edit, and delete brands to categorize products.</li>
+              <li><b>Product Management</b>: Product management includes adding or updating products with comprehensive
+                details such as name, slug, description, images, attributes, categories, brands, specifications,
+                inventory, and more.</li>
+              <li><b>Variant Product Management</b>: Managing product variations that differ by specific attributes such
+                as size, color, material, or style.</li>
+
+              <li>
+                <b>Promotions</b>: Create and manage <b>Coupons</b>, and <b>Offers</b> to attract customers and
+                boost sales.
+              </li>
+              </li>
+
+              <li>
+                <b>Order Management</b>: Manage orders, including order status, payment status, and more.
+              </li>
+              </li>
+
+              <li><b>Payment Management</b>: Manage payment methods, payment status, and more.</li>
+
+              <li><b>Frontend Management</b>: Customize the store's appearance and settings, including frontend content,
+                banners, menus, SEO, custom CSS, and product
+                collections.</li>
+
+              <li><b>Notification Method Management</b>: Streamline communication by managing notification settings
+                across multiple channels. Configure email settings for
+                transactional and promotional messages, set up SMS notifications for instant updates, and manage push
+                notification
+                preferences to engage users effectively. This ensures timely and personalized communication, enhancing
+                user experience
+                and engagement.</li>
+
+              <li><b>Support Ticket Management</b>: Efficiently handle customer inquiries and issues through a
+                centralized support ticket system.</li>
+
+              <li>
+                <b>Multilingual Support</b>: Enhance accessibility and user experience by enabling multilingual support.
+                Multilingual support ensures inclusivity and helps expand reach across global markets.
+              </li>
+            </ul>
+          </div>
+
+          <div class="ms-4">
+            <h6>Seller Panel Features</h6>
+            <ul>
+              <li><b>Dashboard</b>: A dashboard designed to track sales, orders, payments, and other essential metrics.
+              </li>
+              <li><b>Manage Shop</b>: Seller can configure his shop from "My Shop" menu. He can add shop logo, cover
+                photo, name, address etc from here.
+              </li>
+
+              <li><b>Product Management</b>: Product management includes adding or updating products with comprehensive
+                details such as name, slug, description, images, attributes, categories, brands, specifications,
+                inventory, and more.</li>
+              <li>
+                <b>Order Management</b>: Order management system enables sellers to track, process and fullfill customer
+                orders efficiently. Sellers can view order details, update status (e.g., pending,processing,ready to
+                pickup) and manage cancellations also.
+              </li>
+
+              <li>
+                <b>Withdrawal System</b>: Seller can transfer their earnings securely through various payment methods.
+              </li>
+
+              <li>
+                <b>2FA Security</b>: Ecoma provides an additional layer of security for sellers through Two-Factor
+                Authentication (2FA). This feature enhances account protection by requiring an extra verification step
+                during login. Sellers can enable 2FA via email or authenticator apps (such as Google Authenticator or
+                Authy), ensuring that only authorized users can access their accounts.
+              </li>
+              <li>
+                <b>Support Ticket:</b> The support ticket system allows sellers to communicate directly with the admin
+                team for assistance. Selelrs can create tickets for any queries. The system enables tracking ticket
+                status receiving timely responses and resolving concerns efficiently. This ensures smooth operations and
+                better seller support.
+              </li>
+          </div>
+
+          <div class="ms-4">
+            <h6>Frontend Features</h6>
+            <ul>
+              <li>Browse products by category, brand, or search functionality.</li>
+              <li>A user-friendly shopping experience with advanced filtering and sorting capabilities.</li>
+              <li>Wishlist, compare, and add to cart options available without requiring user login.</li>
+              <li>Order tracking functionality to monitor the status of purchases.</li>
+              <li>Responsive design optimized for seamless performance across all devices.</li>
+              <li>Detailed product pages with comprehensive descriptions, images, and specifications.</li>
+              <li>Secure and easy checkout process with multiple payment options.</li>
+              <li>Customer reviews and ratings for informed purchasing decisions.</li>
+          </div>
+
+          <p class="mt-4 lg-text">
+            The documentation will help to understand the total system and we have tried to summarize the total.
+          </p>
+
+          <q class="blockquote text--accent">
+            If needed, we will update this script continuously and come with new features and security patches. We
+            will try to give the best user experience to all of our clients.
+          </q>
+
+          <p class="mt-4 lg-text">
+            Thank you for purchasing <strong>Ecoma</strong>. If you have any questions or queries that are not
+            answered in this document, please feel free to contact us via email. We will try to respond to you as soon
+            as possible. Thank you so much.
+          </p>
+        </div>
+      </div>
+
+      <div id="server-req" class="section--sm">
+
+        <div class="doc-body">
+          <h4 class="doc-head__title">Server Requirements</h4>
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <ul class="list list--base" style="--gap: 0.5rem">
+                <li>PHP Version 8.3</li>
+                <li>MySQL Version 8.0+ or MariaDB version 10.6+</li>
+                <li>BCMath PHP Extension</li>
+                <li>Ctype PHP Extension</li>
+                <li>cURL PHP Extension</li>
+                <li>DOM PHP Extension</li>
+                <li>Fileinfo PHP Extension</li>
+                <li>GD PHP Extension</li>
+                <li>JSON PHP Extension</li>
+                <li>Mbstring PHP Extension</li>
+                <li>OpenSSL PHP Extension</li>
+                <li>PCRE PHP Extension</li>
+                <li>PDO PHP Extension</li>
+                <li>pdo_mysql PHP Extension</li>
+                <li>Tokenizer PHP Extension</li>
+                <li>XML PHP Extension</li>
+                <li>Filter PHP Extension</li>
+                <li>Hash PHP Extension</li>
+                <li>Session PHP Extension</li>
+                <li>Zip PHP Extension</li>
+                <li>allow_url_fopen()</li>
+                <li>file_get_contents()</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-8 col-md-6">
+              <img src="assets/images/server.png" alt="image" class="img-fluid w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="server-faq" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Server FAQ</h4>
+          <div class="row">
+            <div class="col-12">
+              <div class="row mt-4">
+                <div class="col-md-6 mb-3">
+                  <div class="faq-body">
+                    <p class="mb-2 fw-bold text--canvas">
+                      Do I need VPS or a Dedicated server to run this system?
+                    </p>
+                    <p class="m-0">
+                      No, You can run this system in a shared host as well and
+                      it will run smoothly. But if you have much traffic, you
+                      may need to upgrade your server/hosting. Our codes are
+                      highly optimized to ensure the best possible
+                      performance.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="faq-body">
+                    <p class="mb-2 fw-bold text--canvas">
+                      Which hosting provider should I choose for this? Do you
+                      have any suggestions?
+                    </p>
+                    <p class="m-0">
+                      You can choose any hosting provider that provides
+                      cPanel-based hosting. cPanel is not a must, but we
+                      recommend you to have cPanel-based hosting.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="faq-body">
+                    <p class="mb-2 fw-bold text--canvas">
+                      I don't have cPanel, What should I do?
+                    </p>
+                    <p class="m-0">
+                      Nothing to worry about, Our system will work with any
+                      control panel but cPanel is easy to manage, for that we
+                      recommend cPanel-based hosting. Also, Our free Support
+                      is limited to cPanel-based hosting only.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="faq-body">
+                    <p class="mb-2 fw-bold text--canvas">
+                      Do you provide hosting as well?
+                    </p>
+                    <p class="m-0">
+                      Yes, We do. We can provide a complete solution for your
+                      hosting. We can provide
+                      <a class="t-link" href="https://viserlab.com/hosting/budget" target="_blank">budget shared
+                        hosting</a>,
+                      <a class="t-link" href="https://viserlab.com/hosting/premium" target="_blank">premium shared
+                        hosting</a>,
+                      <a class="t-link" href="https://viserlab.com/hosting/vps" target="_blank">VPS</a>,
+                      <a class="t-link" href="https://viserlab.com/hosting/dedicated" target="_blank">Dedicated
+                        servers</a>, and Cluster from various geolocation. Please contact
+                      us for more details.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="installation" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Installation Guide</h4>
+          <div class="row">
+            <div class="col-12">
+              <div class="row gy-4 gx-5 align-items-center">
+                <div class="col-xl-6">
+                  <p>
+                    Installation is very easy with our Easy Installer. You
+                    can install yourself simply in few steps without any
+                    coding knowledge. We develop our installation system to
+                    make the installation process flawless and easy.
+                  </p>
+                  <h6>Installation Steps:</h6>
+                  <ol>
+                    <li class="py-2">
+                      <b>Upload File</b>:
+                      Upload the whole file to the server you have
+                      downloaded from download after purchase.
+                    </li>
+                    <li class="py-2">
+                      <b>Unzip File</b>:
+                      Extract/Unzip the file and move all files in the
+                      <code>Files</code> folder to the main folder(where
+                      you want to install it). Make sure you have moved
+                      the <code>index.php</code> and
+                      <code>.htaccess</code> as well.
+                    </li>
+                    <li class="py-2">
+                      <b>Browse Site</b>:
+                      Now please browse
+                      http://<code>your-site-url</code>/install/index.php
+                      and follow the process. Your system should be ready
+                      to use.
+                    </li>
+                  </ol>
+
+                  <p class="xl-text mt-4">
+                    If you are still unable to install the system, please
+                    contact us. we offer free installation in cPanel-based
+                    hosting.
+                  </p>
+                  <p class="xl-text fw-md mb-2">Admin Login:</p>
+                  <ul class="list" style="--gap: 0.2rem">
+                    <!-- <li> -->
+                    <span class="d-block">Admin login URL is:
+                      <strong>
+                        http://<code>your-site-url</code>/admin</strong>
+                    </span>
+                    </li>
+                    <li>
+                      <strong>Username :</strong>
+                      [as_you_set_on_installation]
+                    </li>
+                    <li>
+                      <strong>Password :</strong>
+                      [as_you_set_on_installation]
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xl-6">
+                  <img src="assets/images/installation.png" alt="image" class="img-fluid rounded" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="activation" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Activation</h4>
+          <div class="row g-4">
+            <div class="col-xl-6">
+              <p>
+                After installing the system you need to activate it. When
+                you visit the system, you will be able to see the activation
+                page. Just provide this information to activate and run your
+                system. Your provided information will send to ViserLab
+                server to verify and we never collect any sensitive or
+                confidential data.
+              </p>
+              <ul class="list list--base" style="--gap: 0.5rem">
+                <li>
+                  <p class="m-0">
+                    <strong>Purchase Code:</strong> To get purchase code
+                    <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-"
+                      target="_blank">Click Here</a>.
+                  </p>
+                </li>
+                <li>
+                  <p class="m-0">
+                    <strong>Envato Username:</strong> Your Envato username
+                    with which you bought system.
+                  </p>
+                </li>
+                <li>
+                  <p class="m-0">
+                    <strong>Email:</strong> Provide your email for further
+                    communication.
+                  </p>
+                </li>
+              </ul>
+              <p class="mt-5">
+                <code>The purchase code(license) is for one website or domain
+                  only. Please activate the license into the correct
+                  domain(URL) to avoid any unwanted issues in the
+                  future.</code>
+              </p>
+            </div>
+            <div class="col-xl-6">
+              <div class="doc-body--alt t-center">
+                <img src="assets/images/activation.png" alt="image" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="folder" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Folder Structure</h4>
+          <div class="row">
+            <div class="col-12">
+              <p>
+                After installation, There will be two folders and two files
+                will be in your main folder.
+              </p>
+              <ul class="list" style="--gap: 0.3rem">
+                <li>
+                  <span class="list list--row align-items-center">
+                    <span class="xl-text lh-1">
+                      <i class="fas fa-folder"></i>
+
+                    </span>
+                    <span class="d-inline-block">assets</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="list list--row align-items-center">
+                    <span class="xl-text lh-1">
+                      <i class="fas fa-folder"></i>
+
+                    </span>
+                    <span class="d-inline-block">core</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="list list--row align-items-center">
+                    <span class="xl-text lh-1">
+                      <i class="fas fa-file-code"></i>
+
+                    </span>
+                    <span class="d-inline-block">.htaccess</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="list list--row align-items-center">
+                    <span class="xl-text lh-1">
+                      <i class="fas fa-file-code"></i>
+
+                    </span>
+                    <span class="d-inline-block">index.php</span>
+                  </span>
+                </li>
+              </ul>
+              <ul class="list list--base mt-4">
+                <li>
+                  <p class="m-0">
+                    On the <strong>"assets" </strong> folder, We keep all
+                    kinds of assets like <strong>CSS, JS, Images</strong>.
+                    If you want To edit or change anything over CSS or js,
+                    please have a look at this folder.
+                  </p>
+                </li>
+                <li>
+                  <p class="m-0">
+                    On the <strong>"core"</strong> folder, We keep the core
+                    of Laravel and we maintain full MVC structure on this
+                    project.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="customer-management" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Customer/User Management</h4>
+          <p>
+            The Customer Management feature allows admins to oversee and manage all users within the
+            E-commerce platform. Admins have access to various tools to view, edit, and manage customer
+            accounts effectively.
+          </p>
+
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#manageCustomerNav" data-bs-offset="-50">
+                <div id="how-customers-registered">
+                  <h5>How Customers Will Be Added to the System</h5>
+                  <p class="mt-3">
+                    Customers can be added to the system either by signing up through the website.
+                  </p>
+
+                  <div id="configure-sign-up">
+                    <h6>Configure Registration Module</h6>
+
+                    <p>
+                      To Singing Up / Online Registration the <b>User Registration</b>, module must be
+                      enabled. Enable these modules by following steps:
+                    </p>
+                    <ul>
+                      <li>
+                        <b>Access System Configuration:</b>
+                        <ul>
+                          <li>Navigate to the Settings menu.</li>
+                          <li>Select System Configuration.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <b>Enable User Registration:</b>
+                        <ul>
+                          <li>Look for the Online <b>User Registration</b>
+                            modules
+                            in
+                            the list of available modules.</li>
+                          <li>Ensure the modules are enabled by toggling the switch to ON.</li>
+                          <li>Click the Submit button to save the changes.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="how-to-signup">
+                    <h6>Singing Up / Online Registration</h6>
+
+                    Any visitor to the website can become a registered customer by signing up online. The process
+                    involves the
+                    following steps:
+                    <ul>
+                      <li>
+                        <b>Step 1: Fill Up Signup Form</b>
+
+                        <ul>
+                          <li> Users need to provide their
+                            <em>First Name, Last Name, Email Address, and Password</em>
+                          </li>
+                          <li>The system may enforce strong password rules if the <b>Force Secure
+                              Password</b> option is
+                            enabled in the <b>System Configuration</b> Settings.</li>
+                          <li> Users must agree to the platform's policies by checking a checkbox if the <b>Agree
+                              Policy</b> option is enabled in the <b>System Configuration</b> Settings.</li>
+                        </ul>
+
+                      </li>
+
+                      <li>
+                        <strong>Step 2: Fill Up Profile Completion Form</strong>
+                        <p class="text-dark">
+                          Users must provide additional details such as a unique <em>username, country, mobile number,
+                            address, state, zip code, and city</em>.
+                        </p>
+
+                        <em class="text-muted bg-light p-2 rounded">Upon completing the profile, users will be
+                          redirected
+                          to their dashboard
+                          within the
+                          user
+                          panel.
+                        </em>
+                      </li>
+                    </ul>
+                  </div>
+
+
+
+                  <div id="social-login-options">
+                    <h6>Social Login Options</h6>
+                    <p>
+                      The platform supports social logins for Google, Facebook, and LinkedIn, simplifying
+                      user
+                      registration and login.
+                    </p>
+
+                    <ol>
+                      <li>
+                        <b>Access Social Login Settings</b>:
+                        <ul>
+                          <li>Navigate to Settings.</li>
+                          <li>Select Social Login Settings.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <b>Configure Social Logins</b>:
+                        <ul>
+                          <li>Click <b>Configure</b> to enter API credentials.</li>
+                          <li>Click <b>Help</b> for setup instructions.</li>
+                          <li>Click <b>Enable/Disable</b> to activate the social login option.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div id="manage-customers">
+                  <h5>
+                    Managing Customers
+                  </h5>
+                  <p>
+                    In the Manage Customers menu, admins have access to various submenus that categorize customer
+                    accounts
+                    based
+                    on their status and verification levels. Each submenu contains a list of accounts
+                    displayed in
+                    a
+                    table
+                    view, making it easy to locate and manage specific customer.
+                  </p>
+
+                  <h6>Submenus Overview:</h6>
+                  <ul>
+                    <li><strong>Active</strong>: Accounts that are currently active and in good standing.</li>
+                    <li><strong>Banned</strong>: Accounts that have been banned by an admin.</li>
+                    <li><strong>Email Unverified</strong>: Accounts where the email address has not been verified.</li>
+                    <li><strong>Mobile Unverified</strong>: Accounts where the mobile number has not been verified.</li>
+                    <li><strong>All Accounts</strong>: A comprehensive list of all accounts within the system.</li>
+                    <li><strong>Send Notification</strong>: Allows admins to send notifications to selected accounts.
+                    </li>
+                  </ul>
+
+                  <h6>Customer Actions</h6>
+                  <p>For each customer listed in these submenus, admins can perform the following actions:</p>
+                  <ul>
+                    <li>
+                      <strong>View Details</strong>: Access comprehensive information about the customer,
+                      including payments. orders, and additional customer insights.
+                    </li>
+                    <li><strong>Login as Customer</strong>: Temporarily log in as the customer to troubleshoot issues or
+                      assist with customer management.</li>
+                    <li><strong>Login History</strong>: View the customer's login history and monitor account
+                      activity.
+                    </li>
+                    <li><strong>Send Notification</strong>: Send a direct notification to the customer.</li>
+                    <li><strong>View All Notifications</strong>: Review all notifications sent to the customer.
+                    </li>
+                  </ul>
+
+
+                  <div id="how-to-update-customer-info">
+                    <h6>
+                      How to Update Customer's Information
+                    </h6>
+
+                    <ol>
+                      <li>
+                        <strong>Access the Customer Details</strong>: Navigate to the View Details menu
+                        for the
+                        selected
+                        customer.
+                      </li>
+                      <li>
+                        <strong>Edit Information</strong>: Admins can update customer information including:
+                        <ul>
+                          <li>First Name</li>
+                          <li>Last Name</li>
+                          <li>Email Address</li>
+                          <li>Mobile Number</li>
+                          <li>City</li>
+                          <li>State</li>
+                          <li>Zip/Postal Code</li>
+                          <li>Country</li>
+                          <li>Address</li>
+                          <li>Email Verification Status</li>
+                          <li>Mobile Verification Status</li>
+                          <li>2FA Verification Status</li>
+                        </ul>
+                      <li>
+                        <b>Save Changes</b>: After editing the details, ensure to save the changes to
+                        update the
+                        user's
+                        information.
+                      </li>
+                      </li>
+                    </ol>
+                  </div>
+
+
+                  <div id="ban-unban-user">
+                    <h6>
+                      How to Ban/Unban a Customer
+                    </h6>
+
+                    <ol>
+                      <li>
+                        <strong>Search for the Customer</strong>: Use the search option in the Customer
+                        List to find
+                        the
+                        customer.
+                      </li>
+                      <li>
+                        <strong>Ban Customer</strong>: Click the <strong>Ban Customer</strong> button to
+                        temporarily
+                        suspend
+                        the
+                        customers's account. The customer will be unable to access his Account Panel.
+                      </li>
+
+                      <li>
+                        <strong>Unban Customer</strong>: To reactivate the customer's account, click the Unban
+                        Customer button.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="manageCustomerNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li>
+                      <a class="nav-link" href="#how-customers-registered">How Customers Will Be Added to the System</a>
+                      <ul>
+                        <li><a class="nav-link" href="#configure-sign-up">Configure Registration Module</a>
+                        </li>
+                        <li><a class="nav-link" href="#how-to-signup">Singing Up / Online Registration</a>
+                        </li>
+                        <li><a class="nav-link" href="#social-login-options">Social Login Options</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#manage-customers">Managing Customers</a>
+                      <ul>
+                        <li><a class="nav-link" href="#how-to-update-customer-info">How to Update Customer's Info</a>
+                        </li>
+                        <li> <a class="nav-link" href="#ban-unban-user">How to Ban / Unban an Account</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="product-management" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Product Management</h4>
+          <p>This document provides step-by-step guidance for managing products in your eCommerce application’s admin
+            panel. It
+            includes instructions on managing attributes, brands, categories, and individual product
+            details. To add a new product, you need to provide the below information</p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#manageProductNav" data-bs-offset="-50">
+                <div id="attributes-management">
+                  <h5>Manage Attributes</h5>
+
+                  <p class="mt-3">
+                    The Attribute Management feature in the admin panel allows you to create, organize, and manage
+                    product
+                    attributes that
+                    help define and categorize your products effectively. Attributes are essential for adding product
+                    variations, such as
+                    size, color, or material, and enhancing the filtering and search experience for customers on your
+                    eCommerce platform.
+                  </p>
+
+                  <div id="add-update-attributes">
+                    <h6>Add/Update Attribute Types</h6>
+                    <ul>
+                      <li>
+                        Navigate to the Attribute Types submenu in the Product Configuration menu.
+                      </li>
+                      <li>
+                        Click Add New button to create a new attribute.
+                      </li>
+
+                      <li>
+                        Provide the following details:
+                        <ul>
+                          <li>Name: The name of the attribute (e.g., Size, Color).</li>
+                          <li>Type: Select from Text, Color, or Image.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="manage-brands">
+                  <h5>Manage Brands</h5>
+
+                  <p class="mt-3">
+                    The Brand Management feature allows you to create and manage brands for your products, helping to
+                    organize and showcase
+                    them effectively. By managing brands, you can enhance your store's organization and improve customer
+                    trust by showcasing well-known or premium brands prominently.
+                  </p>
+
+                  <h6>Key functionalities include:</h6>
+                  <ul>
+                    <li><b>Add/Update Brands</b>: Create new brands and upload logos to represent them.</li>
+                    <li><b>Feature Brands</b>: Highlight specific brands on the homepage for better visibility.</li>
+                    <li><b>Delete/Restore Brands</b>: Remove brands from the list or restore them when needed.</li>
+                  </ul>
+                </div>
+
+                <div id="manage-categories">
+                  <h5>Manage Categories</h5>
+
+                  <p class="mt-3">
+                    The Category Management feature allows admins to create, organize, and manage product categories in
+                    a
+                    hierarchical
+                    structure, ensuring a streamlined shopping experience for customers.
+                  </p>
+
+                  <h6>Key functionalities include:</h6>
+                  <ul>
+                    <li><b>Root Category</b>: Create top-level categories to group similar products</li>
+                    <li>
+                      <b>Child Category</b>: Add child categories under a parent category for detailed classification.
+                    </li>
+                    <li>
+                      <b>Add/Edit Categories</b>: Update category details such as name, slug (URL-friendly name), meta
+                      title, description, keywords,
+                      images, and icons to improve SEO and visual representation.
+                    </li>
+                    <li>
+                      <b>Feature Categories</b>: Mark categories as featured to display them prominently on the homepage
+                      or in banners.
+                    </li>
+
+                    <li>
+                      <b>Delete/Restore Categories</b>: Temporarily remove categories or restore them when required.
+                    </li>
+
+                    <li>
+                      <b>Drag-and-Drop Hierarchy</b>: Organize categories in a tree structure for easy management of
+                      parent-child relationships.
+                    </li>
+                  </ul>
+
+                  <h6 class="mb-1">How to Add a Root/Parent Category?</h6>
+                  <p>To create a root category, ensure no category is selected from the category tree. Fill out the form
+                    and submit it to add
+                    a root category. Alternatively, you can click on the <b>Add Root Category</b> button to initiate the
+                    process.</p>
+
+                  <h6 class="mb-1">How to Add a Child Category?</h6>
+                  <p>To create a child category, first select the desired parent category from the category tree. Then,
+                    click on the <b>Add
+                      Child</b> button, complete the form, and submit it to add the child category under the selected
+                    parent.</p>
+                </div>
+
+                <div id="add-update-products">
+                  <h5>Add/Update Products</h5>
+                  <p class="my-3">
+                    The Manage Products module allows admins to add, update, and manage detailed product information
+                    effectively. This
+                    feature is designed to ensure flexibility and accuracy while creating or modifying product listings,
+                    helping businesses
+                    showcase their offerings in a professional and organized manner.
+                  </p>
+
+                  <div>
+                    <h6>Product Information</h6>
+                    <ul>
+                      <li><b>Name</b>: Enter a title for the product.</li>
+                      <li><b>Slug</b>: A URL-friendly version of the product name.</li>
+                      <li><b>Model</b>: Enter Model number of the product.</li>
+                      <li><b>Brand</b>: Choose the product brand.</li>
+                      <li><b>Categories</b>: Select the categories for the product.</li>
+                      <li><b>Base Price</b>: Enter the base price of the product.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h6>Product Description</h6>
+                    <ul>
+                      <li>
+                        <b>Description</b>: Provide a detailed overview of the product. This description will be
+                        displayed
+                        on the product details page, giving customers comprehensive information about the product. The
+                        field includes a rich text editor, allowing you to format the content for better organization
+                        and
+                        readability.
+                      </li>
+
+                      <li><b>Summary</b>: Write a concise summary of the product. This summary will appear both on the
+                        product details page and in the list view on the products page, offering customers a quick
+                        snapshot of the product's key features and benefits.</li>
+                    </ul>
+                  </div>
+
+                  
+
+                  <div id="add-update-products-inventory">
+                    <h6>Inventory</h6>
+                    <ul>
+                      <li>
+                        <b>Product SKU</b>: Provide a unique identifier for the product. This SKU will be used for
+                        efficient inventory management and order
+                        processing.
+                      </li>
+                      <li>
+                        <b>Track Inventory</b>: Enable this option if you wish to monitor the product's inventory
+                        levels.
+                      </li>
+                      <li>
+                        <b>Show In Frontend</b>: Turn on this setting to display the product's stock quantity on the
+                        product details page.
+                      </li>
+                      <li>
+                        <b>Stock Quantity</b>: From Manage Inventory menu update stock in the product has no variants.
+                        If the product has variants then at first, admin have to create variants, then can add or update
+                        stock quantity for each variant.
+                      </li>
+                    </ul>
+                  </div>
+                 
+                  <div>
+                    <h6>Inventory</h6>
+                    <ul>
+                      <li><b>Track Inventory</b>: You have to keep it enable to track the inventory of the product.</li>
+                      <li><b>Show in Frontend</b>: If this option is enabled product stock quantity will shown in product details page.</li>
+                      <li><b>Has Variants</b>: If this option is enabled the product will be considered as variable product and you can manage the stock quantity for each variant.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h6>Product Specifications</h6>
+                    <p>This allows administrators to add product-specific specifications based on the Product Type. These
+                      specifications provide additional information about the product, helping customers make informed
+                      purchasing decisions.</p>
+                  </div>
+
+                  <div>
+                    <h6>SEO Content</h6>
+                    <ul>
+                      <li><b>Meta Title</b>: Provide a unique and descriptive title for the product. This title will
+                        appear in search engine results, helping attract
+                        potential customers and improve visibility.</li>
+                      <li><b>Meta Description</b>: Write a compelling and informative description of the product. This
+                        will be displayed in search engine results,
+                        encouraging users to click through to the product page.</li>
+                      <li><b>Meta Keywords</b>: Add relevant keywords that describe the product, separated by commas.
+                        These keywords help search engines understand the
+                        product's content and improve its discoverability.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h6>Media Contents</h6>
+                    <ul>
+                      <li><b>Main Image</b>: Upload the primary image of the product, which will be displayed
+                        prominently
+                        in the product
+                        list and on the product details page.</li>
+                      <li><b>Additional Images</b>: Add multiple images to showcase the product from various angles or
+                        highlight different
+                        features. These images will be displayed in the product details page gallery.</li>
+                      <li><b>Video</b>: Provide a YouTube embed link to include a product video. The video will be
+                        featured on the product
+                        details page, offering an engaging way to present the product to potential customers.</li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+
+                <nav id="manageProductNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li>
+                      <a class="nav-link" href="#attributes-management">Manage Attribute</a>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#manage-brands">Manage Brands</a>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#manage-categories">Manage Categories</a>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#add-update-products">Add/Update Product</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="promotional-tools" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Promotions</h4>
+          <p>
+            The <b>Promotions</b> section is designed to help admins create and manage marketing campaigns for
+            their products. This
+            section includes features to manage coupons and offers, enabling businesses to attract more customers, drive
+            sales, and
+            reward loyal buyers. Below are detailed instructions for each aspect of the Promotions module.
+          </p>
+
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#managePromotionalToolsNav" data-bs-offset="-50">
+                <div id="manage-coupon">
+                  <h5>Manage Coupons</h5>
+                  <p>Coupons are discount codes that customers can apply during checkout to receive discounts on their
+                    purchases. These are a
+                    great way to incentivize sales, reward loyal customers, or clear inventory.</p>
+
+                  <div id="how-to-add-coupons">
+                    <h6>How to Add Coupons</h6>
+                    <ol>
+                      <li>
+                        Navigate to Promotions > Coupons from the admin panel.
+                      </li>
+                      <li>
+                        Click the <b>Add New</b> button.
+                      </li>
+                      <li>
+                        Fill in the fields in the coupon creation form:
+                        <ul>
+                          <li>
+                            <b>General Information</b>
+                            <ul>
+                              <li>
+                                <b>Coupon Name</b> <em class="text-muted">(Optional)</em> : A descriptive name for
+                                internal identification.
+                              </li>
+                              <li>
+                                <b>Coupon Code</b>: A unique code that customers will use to redeem the coupon.
+                              </li>
+                              <li>
+                                <b>Discount Type</b>: Select whether the discount is a flat amount or a percentage.
+                              </li>
+                              <li>
+                                <b>Discount Amount</b>: Specify the discount value in amount or percentage.
+                              </li>
+                              <li>
+                                <b>End Date: </b>Specify the expiration date of the coupon.
+                              </li>
+                              <li>
+                                <b>Description</b> <em class="text-muted">(Optional)</em> : Short description related to
+                                the coupon.
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <b>Usage Limit</b> <em class="text-muted">(Optional)</em>
+                            <ul>
+                              <li>
+                                <b>Limit Per Coupon</b>: Set a limit for how many times the coupon can be used in total.
+                                Leave empty for unlimited uses.
+                              </li>
+                              <li>
+                                <b>Limit Per Customer</b>: Set a limit for how many times a single customer can use the
+                                coupon. Leave empty for unlimited uses.
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <b>Usage Restrictions</b> <em class="text-muted">(Optional)</em>
+                            <ul>
+                              <li>
+                                <b>Minimum Spend</b>: Set a minimum purchase amount required to apply the coupon.
+                              </li>
+                              <li>
+                                <b>Maximum Spend</b>: Set a maximum purchase amount eligible for the coupon.
+                              </li>
+                              <li>
+                                <b>Categories</b>: Restrict the coupon to specific product categories.
+                              </li>
+                              <li>
+                                <b>Products</b>: Restrict the coupon to specific products.
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>Save the coupon by clicking the <b>Submit</b> button.</li>
+                    </ol>
+                  </div>
+
+                  <div id="how-coupons-work">
+                    <h6>How Coupons Work</h6>
+                    <ol>
+                      <li>
+                        Customers apply the coupon by entering the coupon code at the cart.
+                      </li>
+                      <li>
+                        The system validates the coupon based on:
+                        <ul>
+                          <li>Validity period</li>
+                          <li>Usage limits (per coupon and per customer).</li>
+                          <li>Spend restrictions.</li>
+                          <li>Eligible categories/products.</li>
+                        </ul>
+                      </li>
+                      <li>If valid, the discount is applied to the cart total.</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div id="offer-management">
+                  <h5>Manage Offers</h5>
+                  <p>Offers provide automatic discounts on products or categories without requiring customers to input a
+                    code. They are
+                    excellent for seamless promotions and improving product visibility.</p>
+
+                  <div id="how-to-add-offers">
+                    <h6>How to Add Offers</h6>
+                    <ol>
+                      <li>
+                        Navigate to Promotions > Offers from the admin panel.
+                      </li>
+                      <li>
+                        Click the <b>Add New</b> button.
+                      </li>
+                      <li>
+                        Fill in the fields in the offer creation form:
+                        <ul>
+                          <li>
+                            <b>General Information</b>
+                            <ul>
+                              <li>
+                                <b>Offer Name</b>: <em class="text-muted">(Optional)</em> A descriptive title for the
+                                offer.
+                              </li>
+
+                              <li>
+                                <b>Discount Type</b>: Choose between a flat discount amount or a percentage discount.
+                              </li>
+
+                              <li>
+                                <b>Amount</b>: Specify the discount value in amount or percentage.
+                              </li>
+
+                              <li>
+                                <b>Start Date</b>: Specify the date when the offer becomes active.
+                              </li>
+
+                              <li>
+                                <b>End Date</b>: Specify the date when the offer expires.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <b>Products</b>:
+                            Select the products to which the offer applies.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>Save the offer by clicking the <b>Save</b> button.</li>
+                    </ol>
+                  </div>
+
+                  <div id="how-offers-work">
+                    <h6>How Offers Work</h6>
+                    <ul>
+                      <li>
+                        Once an offer is created, it is automatically applied to the selected products.
+                      </li>
+                      <li>
+                        Customers will see the discounted price on the product.
+                      </li>
+
+                      <li>
+                        <b>Important Notes:</b>
+                        <ul>
+                          <li>Offers do not require coupon codes.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="managePromotionalToolsNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li>
+                      <a class="nav-link" href="#manage-coupon">Manage Coupon</a>
+                      <ul>
+                        <li><a class="nav-link" href="#how-to-add-coupons">How to Add Coupons</a></li>
+                        <li><a class="nav-link" href="#how-coupons-work">How Coupons Work</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#manage-offers">Manage Offers</a>
+                      <ul>
+                        <li><a class="nav-link" href="#how-to-add-offers">How to Add Offers</a></li>
+                        <li><a class="nav-link" href="#how-offers-work">How Offers Work</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div id="payment-management" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Payment Management</h4>
+          <p>
+            Coupons are discount codes that customers can apply during checkout to receive discounts on their purchases.
+            These are a great way to incentivize sales, reward loyal customers, or clear inventory.
+          </p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#managePaymentNav" data-bs-offset="-50">
+                <div id="managing-automatic-gateways">
+                  <h4>Automatic Gateways</h4>
+
+                  <p>The system integrates with over 30 automatic payment gateways, enabling seamless transactions for
+                    users.</p>
+
+                  <div id="how-to-activate-new-gateway">
+
+                    <h5>How to Activate an Automatic Gateway</h5>
+                    <p>
+                      Administrators can activate these gateways by following the steps below:
+                    </p>
+                    <ol>
+                      <li>
+                        <strong>Access the Payment Gateways Settings</strong>:
+                        <ul>
+                          <li>Navigate to the <b>Store Front Settings</b> menu.</li>
+                          <li>Search for "Gateways" and select <strong>Payment Gateways</strong>.</li>
+                        </ul>
+                      <li>
+                        <strong><strong>Access the Payment Gateways List</strong>:</strong>
+                        <ul>
+                          <li>Ensure you are in the <strong>Automatic Gateway</strong> tab, which is selected by
+                            default.
+                            See the list of
+                            available gateways.</li>
+                          <li>Review the list of available gateways.</li>
+                          <li>
+                            Click on the <strong>Edit</strong> button of the gateway you wish to activate.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Provide Gateway Credentials:</strong>
+                        <ul>
+                          <li>
+                            Enter the necessary credentials, such as API keys, merchant IDs, etc.
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li><strong>Upload Gateway Logo</strong></li>
+
+                      <li>
+                        <strong>Configure Currencies:</strong>
+                        <ul>
+                          <li>Add supported currencies by selecting from the provided list.</li>
+                          <li>
+                            Configure each currency with the following options:
+                            <ul>
+                              <li><strong>Name</strong>: Enter the Name <em>(e.g., Stripe USD, Stripe EUR)</em>.</li>
+                              <li><strong>Range</strong>:Set the minimum and maximum transaction limits.</li>
+                              <li><strong>Charge</strong>: Configure the fixed fee and percentage-based charge. The
+                                charge
+                                will be calculated as <code>Fixed Charge + Percent Charge</code>.</li>
+                              <li><strong>Currency Symbol</strong>: Define the symbol for the currency <em>(e.g., $, €,
+                                  £)</em>.
+                              </li>
+                              <li>
+                                <strong>Rate</strong>: Set the exchange rate relative to the site currency (configured
+                                in
+                                General Settings).
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong> Save the Configuration:</strong>
+                        <ul>
+                          <li>Once all required fields are completed, click Submit to activate the gateway.</li>
+                        </ul>
+                      </li>
+                      </li>
+                    </ol>
+                  </div>
+
+                  <div id="enable-disable-gateway">
+                    <h5>Enable/Disable Automatic Gateways</h5>
+                    <p>Administrators have the ability to enable or disable automatic gateways as needed. This feature allows for greater control over which payment methods are available to customers.</p>
+
+                    <ul>
+                      <li>In the list of gateways, each entry will have Enable/Disable button.</li>
+                      <li>To disable a gateway, click the Disable button.</li>
+                      <li>To re-enable a gateway, click the Enable button.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+                <div id="managing-manual-gateways">
+                  <h5>Manual Gateways</h5>
+
+                  <div id="what-is-manual-gateway">
+                    <h6 class="mb-2">What is Manual Gateway?</h6>
+                    <p>
+                      Manual gateways allow customers to make payment through methods such as bank transfers, which are
+                      processed manually by the administrator.
+                    </p>
+                  </div>
+
+                  <div class="mt-4" id="how-to-add-new-manual-gateway">
+
+                    <h6 class="mb-2">How to Add a New Manual Gateway</h6>
+                    <p>
+                      Administrators can activate these gateways by following the steps below:
+                    </p>
+                    <ol>
+                      <li>
+                        <strong>Access the Manual Gateways Settings</strong>:
+                        <ul>
+                          <li>Navigate to the Store Front Settings menu.</li>
+                          <li>Search for "Gateways" and select <strong>Payment Gateways</strong>.</li>
+                        </ul>
+                      <li>
+                        <strong><strong>Access the Payment Gateways List</strong>:</strong>
+                        <ul>
+                          <li>Select the <strong>Manual Gateway</strong> tab, Automatic Gateway is selected by default.
+                          </li>
+                          <li>Click on the <strong>Add New</strong> Button to add a new manual gateway.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Provide Gateway Information:</strong>
+                        <ul>
+                          <li>
+                            Fill in the required fields::
+                            <ul>
+                              <li><strong>Upload Logo</strong>: Upload a logo for the method</li>
+                              <li><strong>Gateway Name</strong>: Enter the Name <em>(e.g., Bank Transfer)</em>.</li>
+                              <li><strong>Currency</strong>: Enter the Name <em>(e.g., USD, EUR)</em>.</li>
+                              <li><strong>Range</strong>:Set the minimum and maximum transaction limits.</li>
+                              <li><strong>Charge</strong>: Configure the fixed fee and percentage-based charge. The
+                                charge
+                                will be calculated as <code>Fixed Charge + Percent Charge</code>.</li>
+                              <li><strong>Payment Instructions</strong>: Provide detailed instructions for the customer.
+                              </li>
+                              <li><strong>Dynamic Form</strong>: Create a form for customers to complete during the
+                                payment
+                                process.</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong> Save the Configuration:</strong>
+                        <ul>
+                          <li>Once the form is filled out, click Submit to add the manual gateway to the system.</li>
+                        </ul>
+                      </li>
+                      </li>
+                    </ol>
+                  </div>
+
+                  <div class="mt-4" id="eanable-disable-manual-gateway">
+                    <h5>Enable/Disable Manual Gateways</h5>
+                    <p>Administrators have the ability to enable or disable manual gateways as needed. This feature
+                      allows
+                      for greater control over which payment methods are available to customers.</p>
+
+                    <ul>
+                      <li>In the list of gateways, each entry will have Enable/Disable button.</li>
+                      <li>To disable a gateway, click the Disable button.</li>
+                      <li>To re-enable a gateway, click the Enable button.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="manage-customer-payments">
+                  <h4>Manage Customers Payments</h4>
+                  <p>
+                    This option provides administrators with a comprehensive interface to manage user payments. This
+                    includes viewing and processing payments through various stages, such as pending, approved,
+                    successful, and rejected.
+                  </p>
+                  <div class="mt-4" id="view-payments">
+                    <h5>View Payments</h5>
+                    <ul>
+                      <li>Navigate to the Payments menu to view all user payments, both automatic and manual.</li>
+                      <li>
+                        In the Payments menu, you will find several submenus that categorize payments based on their
+                        status:
+                        <ul>
+                          <li><strong>Pending Payments</strong>: Payments awaiting approval.</li>
+                          <li><strong>Approved Payments</strong>: Payments that have been approved.</li>
+                          <li><strong>Successful Payments</strong>: Payments that have been successfully processed and
+                            completed.</li>
+                          <li><strong>Rejected Payments</strong>: Payments that have been rejected due to fraud or other
+                            reasons.</li>
+                          <li><strong>All Payments</strong>: A comprehensive list of all payments, regardless of status.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <h5>Viewing Payment Details</h5>
+                    <ul>
+                      <li>In any of the payment submenus, each payment entry will have a Details button.</li>
+                      <li>Click on the Details button to access the detailed view of the payment.</li>
+                    </ul>
+                  </div>
+
+                  <div class="mt-4" id="approve-reject-payments">
+                    <h5>Approve / Reject Pending Payments</h5>
+                    <ol>
+                      <li>
+                        In the payment's detail view, if the payment is in a pending state, the administrator will have
+                        the option to Approve or Reject the payment.
+                        <ul>
+                          <li><strong>Approve</strong>: Confirms the payment, moving it to the successful status</li>
+                          <li><strong>Reject</strong>: Denies the payment, moving it to the rejected status. This is
+                            typically done if the
+                            payment is deemed fraudulent or does not meet the required criteria.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Once the action is taken, the payment's status will be updated accordingly, and the customer
+                        will be
+                        notified if notifications are configured in the system.
+                      </li>
+                    </ol>
+
+                    <p class="bg-light p-3 rounded">
+                      This process ensures that all payments are thoroughly reviewed and validated, maintaining the
+                      integrity and security of the financial transactions on the platform.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="managePaymentNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li>
+                      <a class="nav-link" href="#managing-automatic-gateways">Automatic Gateways</a>
+                      <ul>
+                        <li><a class="nav-link" href="#how-to-activate-new-gateway">How to Activate an Automatic
+                            Gateway</a></li>
+                        <li><a class="nav-link" href="#enable-disable-gateway">Enable/Disable Automatic Gateways</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#managing-manual-gateways">Manual Gateways</a>
+                      <ul>
+                        <li><a class="nav-link" href="#what-is-manual-gateway">What is Manual Gateway</a></li>
+                        <li><a class="nav-link" href="#how-to-add-new-manual-gateway">How to Add a New Manual
+                            Gateway</a></li>
+                        <li><a class="nav-link" href="#eanable-disable-manual-gateway">Enable/Disable Manual
+                            Gateways</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#manage-customer-payments">Manage Customers Payments</a>
+                      <ul>
+                        <li><a class="nav-link" href="#view-payments">View Payments</a></li>
+                        <li><a class="nav-link" href="#approve-reject-payments">Approve / Reject Pending Payments</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="order-management" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Order Management</h4>
+          <p>This module provides admins with tools to manage and track orders effectively through different statuses
+            and submenus.
+            Admins can update the status of orders, take necessary actions, and ensure smooth order processing.</p>
+
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#manageOrdersNav" data-bs-offset="-50">
+                <div id="order-statuses">
+                  <h5>Order Statuses</h5>
+                  <p>Each order passes through the following statuses:</p>
+                  <ol>
+                    <li><b>Pending</b>: The order has been placed but is awaiting admin action.</li>
+                    <li><b>Processing</b>: The order is being under processing.</li>
+                    <li><b>Ready to Deliver</b>: The order is being prepared or packed by the seller.</li>
+                    <li><b>Picked Up</b>: The order has been picked up from the seller.</li>
+                    <li><b>Dispatched</b>: The order has been shipped and is on its way to the customer.</li>
+                    <li><b>Delivered</b>: The order has been successfully delivered to the customer</li>
+                    <li><b>Cancelled</b>: The order has been cancelled by the admin.</li>
+                    <li><b>Returned</b>: The order has been returned by the customer.</li>
+                  </ol>
+                </div>
+
+                <div id="order-workflow">
+                  <h5>Order Workflow</h5>
+                  <ol>
+                    <li>
+                      <b>Pending Orders</b>: Once a customer places an order (via online payment or COD) it appears in the Pending Orders submenu or the All Orders list.
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Processing Orders</b>:
+                      <ul>
+                        <li>Any Sub-Orders marked as processing by the seller are displayed in the Processing Orders submenu.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Ready to Deliver</b>:
+                      <ul>
+                        <li>Admin can't directly mark the order as ready to deliver. Admin should maintain a process.</li>
+                        <li>Admin Actions:
+                          <ul>
+                            <li><b>Pickup Products from Seller</b>: When a seller marks their order as "Ready to
+                              Pickup," the admin must update the corresponding suborder/seller order status to "Picked
+                              Up." Once all suborders associated with a single order are marked as "Picked Up," the main
+                              order automatically transitions to the "Ready to Deliver" stage.</li>
+
+                            <li><b>Mark as Dispatched</b>: Move the order to dispatched when the orders has been
+                              dispatched to the customer's address, local pickup point or courier. After changed the status it will move to the
+                              <b>Dispatched Orders</b> submenu.
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Dispatched Orders</b>
+                      <ul>
+                        <li>Orders that are shipped appear in the <b>Dispatched Orders</b> submenu.</li>
+                        <li>Admin Actions:
+                          <ul>
+                            <li><b>Mark as Delivered</b>: Once the order is confirmed as delivered, move it to the
+                              delivered stage. It will appear in the Delivered Orders submenu
+                              and mark the order as completed.</li>
+
+                            <li><b>Mark as Returned</b>: If the customer returns the order after dispatch, mark it as
+                              returned. It will move to the <b>Returned Orders</b> submenu and
+                              mark the order as completed.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Delivered Orders</b>
+                      <ul>
+                        <li>Orders successfully delivered appear in the <b>Delivered Orders</b> submenu.</li>
+                        <li>No further action is needed for these orders, as they are marked as completed.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Returned Orders</b>
+                      <ul>
+                        <li>Orders returned by customers are listed in the <b>Returned Orders</b> submenu.</li>
+                        <li>No further action is needed for these orders, as they are marked as completed.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Canceled Orders</b>
+                      <ul>
+                        <li>Orders canceled at any stage are listed in the Canceled Orders submenu.</li>
+                        <li>These orders are no longer active and cannot be moved back to a different status.</li>
+                      </ul>
+                    </li>
+
+                  </ol>
+                </div>
+
+                <div id="admin-action-on-each-stage">
+                  <h5>Admin Actions at Each Stage</h5>
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th class="bg-light"><strong>Order Status</strong></th>
+                        <th><strong>Next Available Actions</strong></th>
+                        <th><strong>Resulting Status</strong></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td  class="bg-light">
+                          <strong>Pending</strong>
+                        </td>
+                        <td>Cancel the order</td>
+                        <td>Canceled</td>
+                      </tr>
+                      
+                      <tr>
+                        <td rowspan="2" class="bg-light"><strong>Processing</strong></td>
+                        <td>Cancel the order</td>
+                        <td>Canceled</td>
+                      </tr>
+                      <tr>
+                        <td>Picked up all suborders / seller orders</td>
+                        <td>Ready to delivered</td>
+                      </tr>
+                      <tr>
+                        <td class="bg-light"><strong>Ready to Deliver</strong></td>
+                        <td>Mark as dispatched</td>
+                        <td>Dispatched</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" class="bg-light"><strong>Dispatched</strong></td>
+                        <td>Mark as delivered</td>
+                        <td>Delivered (Completed)</td>
+                      </tr>
+                      <tr>
+                        <td>Mark as returned</td>
+                        <td>Returned (Completed)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="manageOrdersNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a href="#order-statuses" class="nav-link">Order Statuses</a></li>
+                    <li><a href="#order-workflow" class="nav-link">Order Workflow</a></li>
+                    <li><a href="#admin-action-on-each-stage" class="nav-link">Admin Actions at Each Stage</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="support-ticket" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Support Ticket</h4>
+          <p>
+            The Support Ticket module allows customers and guests to create and manage support tickets, ensuring
+            efficient handling of customer inquiries and issues. This documentation outlines the steps for customers
+            to open tickets, how guest submissions are handled, and how administrators can manage and respond to
+            support tickets.
+          </p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#supportTicketNav" data-bs-offset="-50">
+                <div id="user-support-ticket-management">
+                  <h5>Customer Support Ticket Management</h5>
+                  <ul>
+                    <li>
+                      <b>Opening a Support Ticket</b>
+                      <ul>
+                        <li>
+                          Customers can open a support ticket from the Support Ticket menu in their user panel.
+                        </li>
+                        <li>
+                          Upon clicking the <b>Open New Ticket</b> button, customers will be presented with a form to
+                          provide
+                          the necessary details such as the subject, priority, and message.
+                        </li>
+                        <li>
+                          Once submitted, the ticket will be recorded in the system, and customers can track its status
+                          from
+                          the Support Ticket menu.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Viewing and Managing Support Tickets</b>
+                      <ul>
+                        <li>Customers can view the status of their open tickets from the Support Ticket menu in their
+                          user
+                          panel.</li>
+                        <li>Each ticket entry will display its current status (e.g., Open, Closed) and the option to
+                          view
+                          detailed conversations.</li>
+                        <li>Customers can also reply to the ticket if they need to provide additional information or
+                          close
+                          the
+                          ticket if the issue has been resolved.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div id="guest-support-ticket-management">
+                  <h5>Guest Support Ticket Management</h5>
+                  <ul>
+                    <li>
+                      <b>Submitting Contact Form</b>
+                      <ul>
+                        <li>
+                          Guests (non-registered customers) can submit a support ticket through the website's Contact
+                          Form.
+                        </li>
+                        <li>
+                          Upon submission, the contact form entry is automatically converted into a support ticket in
+                          the
+                          system.
+                        </li>
+                        <li>
+                          A confirmation email with a link to view the ticket is sent to the guest’s provided email
+                          address.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Accessing the Ticket</b>
+                      <ul>
+                        <li>Guests can access their support tickets by clicking on the link sent to their email after
+                          they
+                          submit the contact form.</li>
+                        <li>The link will direct them to a page where they can view the status of their ticket and any
+                          responses from the support team.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div id="admin-support-ticket-management">
+                  <h5>Admin Support Ticket Management</h5>
+                  <ul>
+                    <li>
+                      <b>Accessing Support Tickets</b>
+                      <ul>
+                        <li>
+                          Admins can access all support tickets from the Support Ticket menu in the admin panel.
+                        </li>
+                        <li>
+                          The support tickets are organized in a table format, displaying key information such as ticket
+                          ID, subject, user/guest name, and status, priority etc.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Responding to Support Tickets</b>
+                      <ul>
+                        <li>Admins can click on any ticket to view the details and the conversation history.</li>
+                        <li>They can reply to the ticket directly within the admin panel, providing solutions or
+                          requesting additional information from the user or guest.</li>
+                        <li>Once an issue is resolved, admins can close the ticket, marking it as completed.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="supportTicketNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a class="nav-link" href="#user-support-ticket-management">Customer Support Ticket
+                        Management</a>
+                    </li>
+                    <li><a class="nav-link" href="#guest-support-ticket-management">Guest Support Ticket Submission</a>
+                    </li>
+                    <li><a class="nav-link" href="#admin-support-ticket-management">Admin Support Ticket Management</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="settings" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Settings</h4>
+          <p>
+            This document provides an overview of the various settings available in the platform, including
+            <b>General Settings</b> & <b>System Configuration</b> management. These
+            settings allow
+            administrators to customize and control different aspects of the platform’s functionality, appearance,
+            and behavior.
+          </p>
+
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#settingsNav" data-bs-offset="-50">
+                <div id="general-settings">
+                  <h5>General settings</h5>
+                  <p>
+                    The General Settings page allows admins to configure fundamental aspects of the platform that affect
+                    its overall operation and user experience. The settings can be accessed from <b>Settings</b> >
+                    <b>General Settings</b>.
+                  </p>
+
+                  <h6>Fields in General Settings:</h6>
+                  <ul>
+                    <li>
+                      <b>Site Title</b>:
+                      The name of the shop, displayed in the browser tab and various places on the
+                      platform.
+                    </li>
+                    <li><b>Currency</b>: The default currency used throughout the platform (e.g., USD, EUR, GBP).</li>
+                    <li><b>Currency Symbol</b>: The symbol associated with the currency (e.g., $, €, £).</li>
+                    <li><b>Timezone</b>: The default timezone for the platform, ensuring that all time-related functions
+                      are accurate.</li>
+                    <li><b>Site Base Color</b>: The primary color used in the platform’s design theme.</li>
+                    <li><b>Site Secondary Color</b>: The secondary color used in the platform’s design theme.</li>
+                    <li><b>Records to Display Per Page:</b> The number of records shown per page in lists and tables.
+                    </li>
+                    <li><b>Currency Showing Format:</b> The format in which currency values are displayed (e.g.,
+                      Currency
+                      Text & Symbol Both, Currency Text Only, Currency Symbol Only).</li>
+                    <li><b>Commission On Sale:</b> Product sales commission on seller products.</li>
+                  </ul>
+                </div>
+                <div id="sysetm-configuration">
+                  <h5>System Configuration</h5>
+                  <p>
+                    The System Configuration page allows admins to enable or disable various modules and features across
+                    the platform. It can be accessed from <b>Settings</b> > <b>System Configuration</b>.
+                  </p>
+
+                  <h6>Key Toggles and Options:</h6>
+                  <ul>
+                    <li>
+                      <b>Force SSL</b>:
+                      Enforces the use of HTTPS across the platform for enhanced security.
+                    </li>
+                    <li>
+                      <b>OTP Via Email</b>:
+                      Enables the sending of OTPs through email for user verification.
+                    </li>
+                    <li>
+                      <b>OTP Via SMS</b>:
+                      Enables the sending of OTPs through SMS for user verification.
+                    </li>
+                    <li>
+                      <b>Product Auto Approval</b>:
+                      Enables auto approved when sellers create or update any product.
+                    </li>
+
+                    <li>
+                      <b>Other Toggles</b>:
+                      The System Configuration includes a variety of other toggles for different features and modules
+                      (many of these have been discussed in previous parts of this documentation). Each toggle can be
+                      enabled or disabled according to the platform’s needs.
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="settingsNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a class="nav-link" href="#general-settings">General Settings</a></li>
+                    <li><a class="nav-link" href="#sysetm-configuration">System Configuration</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-setting" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Notification Settings</h4>
+          <p>
+            The Notification Settings feature allows admins to configure and manage notification preferences for
+            the platform. This feature ensures that all communication methods (email, SMS, and push notifications)
+            are properly set up and customized to meet the needs of the users and the platform.
+          </p>
+
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#notificationSettingsNav" data-bs-offset="-50">
+                <div id="notification-setting-email">
+                  <h5>Email Notification</h5>
+                  <div id="global-email-template">
+                    <h6>Global Email Template</h6>
+                    <p>The Global Email Template section is used to design the default email templates. These templates
+                      serve as the base layout for all email notifications.</p>
+
+                    <ul>
+                      <li>
+                        <b>Access Global Email Template</b>
+                        <ul>
+                          <li>Navigate to the Settings menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options. </li>
+                          <li>The <b>Global Template</b> and <b>Email Template</b> is selected by default.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Review Global Short Codes:
+                        <ul>
+                          <li>A list of available short codes is provided on the Global Email Template page.</li>
+                          <li>Short codes are placeholders used in email templates. They can be copied and used in the
+                            email body and subject to dynamically insert information such as user names, account
+                            details,
+                            etc.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Fill up the form:
+                        <ul>
+                          <li>
+                            <b>Email Sent From - Name</b>: Enter the name that will appear as the sender in the email.
+                          </li>
+                          <li>
+                            <b>Email Sent From - Email</b>: Enter the email address that will appear as the sender.
+                          </li>
+                          <li>
+                            <b>Email Body</b>: Enter the default body content for the email template. This content is
+                            the
+                            design and layout of the email, which will be populated with specific messages from the
+                            notification templates.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="notification-setting-email-setting">
+                    <h6>Email Setting</h6>
+                    <p>This section allows you to configure how emails are sent from the platform.</p>
+
+                    <ul>
+                      <li>
+                        <b>Access Email Setting</b>
+                        <ul>
+                          <li>Navigate to the <b>Settings</b> menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options. </li>
+                          <li>Select <b>Email Setting</b> from the options. The <b>Global Template</b> is selected by
+                            default.</li>
+                        </ul>
+                      <li>
+
+                      <li>
+                        <b>Configuration Options</b>
+                        <ul>
+                          <li>PHP Mail: Select this option if you wish to use PHP's built-in mail function for sending
+                            emails.</li>
+                          <li>SMTP: Select this option to use SMTP for sending emails. Provide the necessary SMTP server
+                            details.</li>
+                          <li>SendGrid API: Choose this option if you are using SendGrid for sending emails.</li>
+                          <li>Mailjet API: Select this option if you are using Mailjet for email delivery.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <b>Required Fields</b>
+                        <ul>
+                          <li>Depending on the chosen configuration option, fill in the required fields such as SMTP
+                            server address, API keys, etc.</li>
+                          <li>Click Submit to save your settings.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="control-email-notificaition">
+                    <h6>Control Email Notification</h6>
+
+                    <ul>
+                      <li>
+                        <b>Access Email Setting</b>
+                        <ul>
+                          <li>Navigate to the <b>Settings</b> menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options. </li>
+                          <li>Select <b>Email Setting</b> from the options. The <b>Global Template</b> is selected by
+                            default.</li>
+                        </ul>
+                      <li>
+
+                      <li>
+                        <b>Configuration Options</b>
+                        <ul>
+                          <li>PHP Mail: Select this option if you wish to use PHP's built-in mail function for sending
+                            emails.</li>
+                          <li>SMTP: Select this option to use SMTP for sending emails. Provide the necessary SMTP server
+                            details.</li>
+                          <li>SendGrid API: Choose this option if you are using SendGrid for sending emails.</li>
+                          <li>Mailjet API: Select this option if you are using Mailjet for email delivery.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <b>Required Fields</b>
+                        <ul>
+                          <li>Depending on the chosen configuration option, fill in the required fields such as SMTP
+                            server address, API keys, etc.</li>
+                          <li>Click Submit to save your settings.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="notification-setting-sms">
+                  <h5>SMS Notification</h5>
+                  <div id="global-sms-template">
+                    <h6>Global SMS Template</h6>
+                    <p>The Global SMS Template section is used to design the default SMS templates. These templates
+                      serve
+                      as the base layout for all SMS notifications.</p>
+                    <ul>
+                      <li>
+                        <b>Access Global SMS Template</b>
+                        <ul>
+                          <li>Navigate to the Settings menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options.</li>
+                          <li>Select <b>SMS Template</b> from the options. <b>Email Template</b> is selected by default.
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Review Global Short Codes:
+                        <ul>
+                          <li>A list of available short codes is provided on the Global SMS Template page.</li>
+                          <li>Short codes are placeholders used in SMS templates. They can be copied and used in the
+                            sms body to dynamically insert information such as user names, account details,
+                            etc.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Fill up the form:
+                        <ul>
+                          <li>
+                            <b>SMS Sent From</b>: Enter the sender name that will appear in the SMS.
+                          </li>
+                          <li>
+                            <b>SMS Body</b>: Enter the default body content for the SMS template. This content is the
+                            design and layout of the SMS, which will be populated with specific messages from the
+                            notification templates.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="notification-setting-sms-setting">
+                    <h6>SMS Setting</h6>
+                    <p>This section allows you to configure how SMS are sent from the platform.</p>
+
+                    <ul>
+                      <li>
+                        <b>Access SMS Setting</b>
+                        <ul>
+                          <li>Navigate to the <b>Settings</b> menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options. </li>
+                          <li>Select <b>SMS Setting</b> from the options. The <b>Global Template</b> is selected by
+                            default.</li>
+                        </ul>
+                      <li>
+
+                      <li>
+                        <b>Configuration Options</b>
+                        <ul>
+                          <li><b>Clickatell</b>: Select this option if you are using Clickatell for sending SMS. Provide
+                            the necessary Clickatell credentials.</li>
+                          <li><b>Infobip</b>: Choose this option if you use Infobip. Enter the required Infobip
+                            credentials.</li>
+                          <li><b>Message Bird</b>: Select this option if you use Message Bird for SMS delivery. Provide
+                            the Message Bird API key.</li>
+                          <li><b>Nexmo</b>: Choose Nexmo for sending SMS and enter the required API key.</li>
+                          <li><b>SMS Broadcast</b>: Select this option if you use SMS Broadcast. Enter the necessary
+                            credentials.</li>
+                          <li><b>Twilio</b>: Choose Twilio and enter the Twilio Account SID and Auth Token.</li>
+                          <li><b>Text Magic</b>: Select Text Magic and provide the API key.</li>
+                          <li><b>Custom API</b>: Use this option if you have a custom SMS API. Enter the necessary API
+                            details.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <b>Required Fields</b>
+                        <ul>
+                          <li>Depending on the selected SMS provider, fill in the required fields such as API keys,
+                            credentials, etc.</li>
+                          <li>Click Submit to save your settings.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="notification-setting-push">
+                  <h5>Push Notification</h5>
+                  <div id="global-push-template">
+                    <h6>Global Push Notification Template</h6>
+                    <p>The Global Push Notification Template section is used to design the default push notification
+                      templates. These templates serve as the base layout for all push notifications.</p>
+                    <ul>
+                      <li>
+                        <b>Access Global Push Notification Template</b>
+                        <ul>
+                          <li>Navigate to the Settings menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options.</li>
+                          <li>Select <b>SPush Notification Template</b> from the options. <b>Email Template</b> is
+                            selected by default.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Review Global Short Codes:
+                        <ul>
+                          <li>A list of available short codes is provided on the Global Push Notification Template page.
+                          </li>
+                          <li>Short codes are placeholders used in Push Notification templates. They can be copied and
+                            used in the
+                            Push Notification body to dynamically insert information such as user names, account
+                            details,
+                            etc.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Fill up the form:
+                        <ul>
+                          <li>
+                            <b>Notification Title</b>: Enter the default title for push notifications.
+                          </li>
+                          <li>
+                            <b>Push Notification Body</b>: Enter the default body content for push notifications. This
+                            content is the design and layout of the push notification, which will be populated with
+                            specific messages from the notification templates.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div id="notification-setting-push-setting">
+                    <h6>Push Notification Setting</h6>
+                    <p>This section allows you to configure push notifications.</p>
+
+                    <ul>
+                      <li>
+                        <b>Access Push Notification Setting</b>
+                        <ul>
+                          <li>Navigate to the <b>Settings</b> menu in the admin panel.</li>
+                          <li>Select <b>Notification Settings</b> from the options. </li>
+                          <li>Select <b>Push Notification Setting</b> from the options. The <b>Global Template</b> is
+                            selected by
+                            default.</li>
+                        </ul>
+                      <li>
+
+                      <li>
+                        <b>Configuration Options</b>
+                        <ul>
+                          <li>
+                            <b>Upload JSON File from Firebase</b>
+                            <ul>
+                              <li>Click the help button for instructions on how to obtain the JSON file from Firebase.
+                              </li>
+                              <li>Upload the JSON file containing the Firebase configuration.</li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <b>Form Fields</b>
+                            <ul>
+                              <li>Fill in fields required for push notifications configuration.</li>
+                              <li>Click Submit to save your settings.</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+
+                <div id="notification-templates">
+                  <h5>Notification Templates</h5>
+                  <p>The Notification Templates section allows admins to customize various notification templates.</p>
+
+                  <ul>
+                    <li>
+                      <b>Access Notification Templates</b>
+                      <ul>
+                        <li>Navigate to the <b>Settings</b> menu in the admin panel.</li>
+                        <li>Select <b>Notification Settings</b> from the options. </li>
+                        <li>Select <b>Notification Templates</b> from the options. The <b>Global Template</b> is
+                          selected by
+                          default.</li>
+                        <li>A list of all available notification templates is displayed, including templates for
+                          notifications.</li>
+                      </ul>
+                    <li>
+
+                    <li>
+                      <b>Editing and Customizing Templates</b>
+                      <ul>
+                        <li>Each notification template has three buttons: Email, SMS, and Push. Admins can click these
+                          buttons to edit the respective template for that notification type.</li>
+                        <li>After clicking a button, the admin is taken to a form where they can edit the content,
+                          subject
+                          (for email), and other relevant fields.</li>
+                        <li>These templates are initially provided as dummy templates and should be customized by the
+                          admin to suit the platform's specific needs.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Using Short Codes</b>
+                      <ul>
+                        <li>Short codes are placeholders that can be used in notification templates. They help
+                          dynamically
+                          populate template fields with specific user data.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Saving Changes</b>
+                      <ul>
+                        <li>After making changes to a template, click the Save button to apply and store the
+                          modifications.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="notificationSettingsNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li>
+                      <a class="nav-link" href="#notification-setting-email">Email Notification</a>
+                      <ul>
+                        <li><a class="nav-link" href="#global-email-template">Global Email Template</a></li>
+                        <li><a class="nav-link" href="#notification-setting-email-setting">Email Setting</a></li>
+                        <li><a class="nav-link" href="#control-email-notificaition">Control Email Notification</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#notification-setting-sms">SMS Notification</a>
+                      <ul>
+                        <li><a class="nav-link" href="#global-sms-template">Global SMS Template</a></li>
+                        <li><a class="nav-link" href="#notification-setting-sms-setting">SMS Setting</a></li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="nav-link" href="#notification-setting-push">Push Notification</a>
+                      <ul>
+                        <li><a class="nav-link" href="#global-push-template">Global Push Template</a></li>
+                        <li><a class="nav-link" href="#notification-setting-push-setting">Push Setting</a></li>
+                      </ul>
+                    </li>
+
+                    <li><a class="nav-link" href="#notification-templates">Notification Templates</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="frontend-manager" class="section--sm pb-0">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Store Front Settings</h4>
+          <p>The Store Front Setting allows admins to manage every aspect of the platform's frontend, including
+            content, sections, pages, SEO settings, templates, and more. This ensures the platform's frontend remains
+            dynamic, up-to-date, and aligned with branding and legal requirements.</p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#frontendManagerNav" data-bs-offset="-50">
+
+                <div>
+                  <div id="logo-and-favicon">
+                    <h5>Logo & Favicon Management</h5>
+                    <p>
+                      The <b>Logo and Favicon</b> feature allows admins to upload and manage the platform’s logo and
+                      favicon, ensuring consistent branding across the site. This can be accessed from <b>Settings</b> >
+                      <b>Logo and Favicon</b>.
+                    </p>
+
+                    <h6>Uploading and Managing Logos and Favicon:</h6>
+                    <ul>
+                      <li>
+                        <b>Logo for White Background</b>:
+                        Upload the logo to be displayed on sections of the platform with a white background.
+                      </li>
+                      <li>
+                        <b>Logo for Dark Background</b>:
+                        Upload the logo to be displayed on sections of the platform with a dark background.
+                      </li>
+                      <li>
+                        <b>Favicon</b>:
+                        Upload the favicon, the small icon displayed in the browser tab, associated with the platform.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="manage-frontend-contents">
+                  <h5>Frontend Content</h5>
+                  <p>
+                    Admins can update the content of various sections and pages directly from the Manage Frontend menu.
+                  </p>
+
+                  <ul>
+                    <li>Update Content for Sections and Pages:
+                      <ul>
+                        <li>Navigate to <b>Store Front Settings</b> > <b>Manage Frontend</b>.</li>
+                        <li>Select the section.</li>
+                        <li>Modify the content as you want.</li>
+                        <li>Save your changes to apply them to the frontend.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="manage-pages">
+                  <h5>Manage Pages</h5>
+                  <p>
+                    Admins have the ability to rearrange sections, and manage existing pages to ensure
+                    optimal content flow and organization.
+                  </p>
+
+                  <ul>
+                    <li>Add Sections to Pages:
+                      <ul>
+                        <li>While in the Manage Pages menu, choose the page where you want to add sections.</li>
+                        <li>Click on the <b>Edit</b> button.</li>
+                        <li>Drag sections from the left side and drop them to the left side and click on "Update Now"
+                          button</li>
+                        <li>You can re arrange sections by drag and drop feature</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="seo-configuration">
+                  <h5>SEO Configuration</h5>
+                  <p>
+                    Admins can configure global SEO settings to optimize the platform's visibility on search engines.
+                  </p>
+
+                  <ul>
+                    <li>Set Global SEO Contents:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>Manage Frontend</b>.</li>
+                        <li>Set the SEO Image, Meta Keywords, Meta Description, Social Title, and Social Description.
+                        </li>
+                        <li>Save the settings to enhance the platform's SEO performance.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="seo-configuration">
+
+                  <ul>
+                    <li>Set Global SEO Contents:
+                      <ul>
+                        <li>Navigate to <b>Store Front Settings</b> > <b>SEO Configuration</b>.</li>
+                        <li>Enter SEO Image, Meta Keywords, Meta Description, Social Title, Social Description</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="policy-pages-management">
+                  <h5>Policy Pages Management</h5>
+                  <p>
+                    Admins can manage important policy pages, such as Terms and Conditions and Privacy Policy, ensuring
+                    they are up-to-date and compliant.
+                  </p>
+
+                  <ul>
+                    <li><b>Add or Edit Policy Pages</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>Manage Policy Pages</b>.</li>
+                        <li>To add a new policy page, click <b>Add New</b> button.</li>
+                        <li>Provide the page title and content in the rich text editor (NIC Editor).</li>
+                        <li>Save the page to publish it.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>SEO Settings for Policy Pages</b>:
+                      <ul>
+                        <li>While adding or editing a policy page, admins can also configure SEO settings to optimize
+                          visibility.</li>
+                        <li>Save the SEO settings along with the page content.</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Remove Policy Pages</b>:
+                      <ul>
+                        <li>From the Manage Pages menu, select the policy page you wish to remove and delete it.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="maintenance-mode">
+                  <h5>Maintenance Mode</h5>
+                  <p>
+                    Admins can enable maintenance mode to perform updates or changes without disrupting the user
+                    experience.
+                  </p>
+
+                  <ul>
+                    <li><b>Enable Maintenance Mode</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>Maintenance Mode</b>.</li>
+                        <li>Toggle the <b>Status</b> switch to enable maintenance mode.</li>
+                        <li>Write the content that will be displayed on the maintenance page.</li>
+                        <li>Submit to activate maintenance mode.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="gdpr-cookie">
+                  <h5>GDPR Cookie Policy</h5>
+                  <p>
+                    Admins can manage the GDPR cookie policy to ensure compliance with data protection regulations.
+                  </p>
+
+                  <ul>
+                    <li><b>Enable Maintenance Mode</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>GDPR Cookie</b>.</li>
+                        <li>Toggle the <b>Status</b> switch to enable GDPR Cookie alert for user.</li>
+                        <li>Enter the GDPR cookie policy content.</li>
+                        <li>Submit to save changes.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="custom-csss">
+                  <h5>Custom CSS</h5>
+                  <p>
+                    Admins have the ability to customize the frontend design by adding custom CSS.
+                  </p>
+
+                  <ul>
+                    <li><b>Enable Maintenance Mode</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b> Custom CSS</b>.</li>
+                        <li>Write or paste the CSS code to customize the frontend design.</li>
+                        <li>Enter the GDPR cookie policy content.</li>
+                        <li>Submit to save changes to apply the custom styles.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="sitemap-xml">
+                  <h5>Sitemap XML</h5>
+                  <p>
+                    Admins can create and manage the sitemap XML to help search engines crawl the website more
+                    efficiently.
+                  </p>
+
+                  <ul>
+                    <li><b>Enable Maintenance Mode</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>Sitemap XML</b>.</li>
+                        <li>Write or paste the sitemap XML file.</li>
+                        <li>Submit to ensure search engines can properly index the website.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div id="robot-txt">
+                  <h5>Robots.txt Management</h5>
+                  <p>
+                    Admins can manage the robots.txt file to control how search engines access and index the website's
+                    content.
+                  </p>
+
+                  <ul>
+                    <li><b>Write Robots.txt:</b>:
+                      <ul>
+                        <li>Navigate to <b>Settings</b> > <b>Robots txt</b>.</li>
+                        <li>Write the rules for search engine crawlers.</li>
+                        <li>Submit to Save the file to apply the changes.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="frontendManagerNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a class="nav-link" href="#logo-and-favicon">Logo and Favicon</a></li>
+                    <li><a class="nav-link" href="#manage-frontend-contents">Frontend Content</a>
+                    </li>
+                    <li><a class="nav-link" href="#manage-pages">Manage Pages</a></li>
+                    <li><a class="nav-link" href="#seo-configuration">SEO Configuration</a></li>
+                    <li><a class="nav-link" href="#templage-management">Template Management</a></li>
+                    <li><a class="nav-link" href="#policy-pages-management">Policy Pages Management</a></li>
+                    <li><a class="nav-link" href="#maintenance-mode">Maintenance Mode</a></li>
+                    <li><a class="nav-link" href="#gdpr-cookie">GDPR Cookie Policy</a></li>
+                    <li><a class="nav-link" href="#custom-csss">Custom CSS</a></li>
+                    <li><a class="nav-link" href="#sitemap-xml">Sitemap XML</a></li>
+                    <li><a class="nav-link" href="#robot-txt">Robots.txt Management</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="extensions" class="section--sm">
+        <div class="doc-body">
+          <h4 class="doc-head__title">Extensions</h4>
+          <p>The Extension feature allows admins to manage and configure various integrated extensions within the
+            platform. This feature provides an easy way to enhance the platform's functionality by enabling,
+            configuring, or disabling available extensions.</p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#extensionsNav" data-bs-offset="-50">
+                <div id="accessing-extension-manager">
+                  <h5>Accessing the Extension Manager</h5>
+                  <p>To access the Extension Manager, follow these steps:</p>
+                  <ul>
+                    <li>Navigate to the Settings menu.</li>
+                    <li>Select Extension from the available options.</li>
+                  </ul>
+
+                  <p>This will open the Extension Manager page, where all integrated extensions are listed.</p>
+                </div>
+
+                <div id="available-extensions">
+                  <h5>Available Extensions</h5>
+                  <p>The platform comes with four integrated extensions:</p>
+                  <ul>
+
+                    <li>
+                      <b>Custom Captcha</b>:
+                      A customizable CAPTCHA system that helps prevent spam and automated bot activity on the platform.
+                    </li>
+
+                    <li>
+                      <b>Google Analytics</b>:
+                      A web analytics service offered by Google that tracks and reports website traffic, providing
+                      valuable
+                      insights into user behavior.
+                    </li>
+
+                    <li>
+                      <b>Google reCAPTCHA 2</b>:
+                      A free service that protects your website from spam and abuse by using advanced risk analysis
+                      techniques to differentiate between humans and bots.
+                    </li>
+
+                    <li><b>Tawk.to</b>: A free live chat app that lets you monitor and chat with visitors on your
+                      website,
+                      providing real-time
+                      customer support.</li>
+                  </ul>
+                </div>
+
+                <div id="managing-extensions">
+                  <h5>Managing Extensions</h5>
+                  <p>Each extension listed in the Extension Manager can be managed through the following options:</p>
+                  <ul>
+
+                    <li>
+                      <b>Configure Button</b>:
+                      Each extension has a <b>Configure</b> button. Click this button to access the configuration
+                      settings
+                      for the selected extension.
+                    </li>
+
+                    <li>
+                      <b>Enabling/Disabling Extensions</b>:
+                      Each extension comes with an <b>Enable/Disable</b> button. Admins can activate or deactivate the
+                      extension as needed.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="extensionsNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a class="nav-link" href="#accessing-extension-manager">Accessing the Extension Manager</a></li>
+                    <li><a class="nav-link" href="#available-extensions">Available Extensions</a></li>
+                    <li><a class="nav-link" href="#managing-extensions">Managing Extensions</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="language-manager" class="section--sm">
+
+        <div class="doc-body">
+          <h4 class="doc-head__title">Language Manager</h4>
+          <p>The Language Manager feature allows administrators to add, manage, and implement multiple languages
+            within the platform, enabling a multilingual user experience. This feature is essential for platforms
+            that cater to a diverse user base with varying language preferences.</p>
+          <div class="row">
+            <div class="col-xl-9 col-md-8">
+              <div data-bs-spy="scroll" data-bs-target="#languageManagerNav" data-bs-offset="-50">
+                <div id="access-language-manager">
+                  <h5>Accessing Language Manager</h5>
+                  <p>To access the Language, follow these steps:</p>
+
+                  <ul>
+                    <li>Navigate to the Store Front Settings menu in the admin panel.</li>
+                    <li>Select Language</li>
+                  </ul>
+                </div>
+
+                <div id="how-to-add-new-language">
+                  <h5>How to Add a New Language</h5>
+                  <p>To add a new language:</p>
+
+                  <ul>
+                    <li>Click the <b>Add New</b> button from the top of Languages list.</li>
+                    <li>A form will appear where you need to fill in the following details:
+                      <ul>
+                        <li><b>Flag</b>: Upload a flag.</li>
+                        <li><b>Language Name</b>: Enter the name of the language.</li>
+                        <li><b>Language Code</b>: Enter the code of the language(e.g. en, bn, hi)</li>
+                        <li><b>Default Language</b>: Set if you want to make this language as the default language.</li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                </div>
+                <div id="how-to-get-keywords">
+                  <h5>How to get Keywords from system</h5>
+                  <p>To get system keywords:</p>
+
+                  <ul>
+                    <li>Click the <b>Fetch Keywords</b> button from the top of Languages list.</li>
+                    <li>
+                      A pop-up will appear where you can see all keywords from the system. It will take some time.
+                      <ul>
+                        <li><b>Flag</b>: Upload a flag.</li>
+                        <li><b>Language Name</b>: Enter the name of the language.</li>
+                        <li><b>Language Code</b>: Enter the code of the language(e.g. en, bn, hi)</li>
+                        <li><b>Default Language</b>: Set if you want to make this language as the default language.</li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                </div>
+                <div id="how-to-translate">
+                  <h5>How to Translate</h5>
+                  <p>Access the Keywords for Translation:</p>
+
+                  <ul>
+                    <li>
+                      <b>Access the Keywords for Translation:</b>
+                      <ul>
+                        <li>Navigate to Store Front Settings > Language in the admin panel.</li>
+                        <li>
+                          Find the language you want to translate and click on the Keywords button associated with that
+                          language.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Import or Add Keywords:</b>
+                      <ul>
+                        <li><b>Import Keywords from Another Language</b>: You can import keywords from system or an
+                          existing
+                          language by selecting the import option. This will add all keywords from the source language
+                          to
+                          the selected language, allowing you to translate them individually.</li>
+                        <li>
+                          <b>Manually Add Keywords:</b>
+
+                          Alternatively, you can add keywords manually by clicking the Add Keyword button.
+                          <ul>
+                            <li>Key Field: Enter the keyword in English (this is the key that the system recognizes).
+                            </li>
+                            <li>Value Field: Enter the translation of the keyword in the selected language.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <b>Translate the Imported or Added Keywords:</b>
+                      <ul>
+                        <li>After importing keywords from another language or the system, a list of keywords will be
+                          displayed.</li>
+                        <li>Click on each keyword to edit its translation.</li>
+                        <li>Provide the translated value in the corresponding language for each keyword.</li>
+                        <li>Click <b>Submit</b> to store the translations.</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <p>By following these steps, you ensure that all keywords are accurately translated and that users
+                    experience the platform in their preferred language.</p>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-4 border--left">
+              <div class="document-sidebar">
+                <h6>On This Article</h6>
+                <nav id="languageManagerNav" class="sidebar-inner-nav">
+                  <ul>
+                    <li><a class="nav-link" href="#access-language-manager">Accessing Language Manager</a></li>
+                    <li><a class="nav-link" href="#how-to-add-new-language">How to Add a New Language</a></li>
+                    <li><a class="nav-link" href="#how-to-get-keywords">How to get Keywords from system</a></li>
+                    <li><a class="nav-link" href="#how-to-translate">How to Translate</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="copyright">
+        <p class="m-0 px-3 py-3 text-center">Copyright © <a href="https://viserlab.com/"
+            class="t-link t-link--canvas">Viserlab</a> 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery library -->
+  <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
+  <!-- bootstrap 5 js -->
+  <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+  <!-- Simplebar Js  -->
+  <script src="assets/js/lib/simplebar.js"></script>
+  <!-- main js -->
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

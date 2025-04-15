@@ -1,0 +1,259 @@
+{
+    "dashboard": {
+        "keyword": [
+            "Dashboard",
+            "Home",
+            "Panel",
+            "Control center",
+            "Overview",
+            "Main hub",
+            "Management hub",
+            "Administrative hub",
+            "Central hub",
+            "Command center",
+            "Administrator portal",
+            "Centralized interface",
+            "Management dashboard",
+            "Main screen",
+            "Administrative dashboard",
+            "Command dashboard",
+            "Main control panel"
+        ],
+        "title": "Dashboard",
+        "icon": "las la-home",
+        "route_name": "seller.home",
+        "menu_active": "seller.home"
+    },
+    "shop": {
+        "keyword": [
+            "Shop",
+            "My Shop",
+            "Store",
+            "Business",
+            "Storefront"
+        ],
+        "title": "My Shop",
+        "icon": "las la-store-alt",
+        "route_name": "seller.shop",
+        "menu_active": "seller.shop"
+    },
+    "products": {
+        "keyword": [
+            "Products",
+            "Manage Products",
+            "Product Management",
+            "Product Control"
+        ],
+        "title": "Manage Products",
+        "icon": "lab la-product-hunt",
+        "menu_active": "seller.products.*",
+        "counters": [
+            "pendingProductsCount"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "All Products",
+                    "Manage Products",
+                    "Product Management",
+                    "Product Control"
+                ],
+                "title": "All Products",
+                "route_name": "seller.products.all",
+                "menu_active": "seller.products.all"
+            },
+            {
+                "keyword": [
+                    "Pending Products",
+                    "Manage Products",
+                    "Product Management",
+                    "Product Control"
+                ],
+                "title": "Pending Products",
+                "route_name": "seller.products.pending",
+                "menu_active": "seller.products.pending",
+                "counter": "pendingProductsCount"
+            },
+            {
+                "keyword": [
+                    "Product Reviews",
+                    "Manage Products",
+                    "Product Management",
+                    "Product Control"
+                ],
+                "title": "Product Reviews",
+                "route_name": "seller.products.reviews",
+                "menu_active": "seller.products.reviews"
+            }
+        ]
+    },
+    "orders": {
+        "keyword": [
+            "Orders",
+            "Manage Orders",
+            "Order Management",
+            "Order Control"
+        ],
+        "title": "Manage Orders",
+        "icon": "las la-money-bill",
+        "menu_active": "seller.order.*",
+        "counters": [
+            "pendingOrdersCount"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "All Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "All Orders",
+                "route_name": "seller.order.all",
+                "menu_active": "seller.order.all"
+            },
+            {
+                "keyword": [
+                    "Pending Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "Pending Orders",
+                "route_name": "seller.order.pending",
+                "menu_active": "seller.order.pending",
+                "counter": "pendingOrdersCount"
+            },
+            {
+                "keyword": [
+                    "Processing Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "Processing Orders",
+                "route_name": "seller.order.processing",
+                "menu_active": "seller.order.processing",
+                "counter": "processingOrdersCount"
+            },
+            {
+                "keyword": [
+                    "Ready to Pickup Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "Ready to Pickup",
+                "route_name": "seller.order.ready.to.pickup",
+                "menu_active": "seller.order.ready.to.pickup",
+                "counter":"readyToPickupOrdersCount"
+            },
+            {
+                "keyword": [
+                    "Delivered Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "Delivered Orders",
+                "route_name": "seller.order.delivered",
+                "menu_active": "seller.order.delivered"
+            },
+            {
+                "keyword": [
+                    "Rejected Orders",
+                    "Manage Orders",
+                    "Order Management",
+                    "Order Control"
+                ],
+                "title": "Rejected Orders",
+                "route_name": "seller.order.rejected",
+                "menu_active": "seller.order.rejected"
+            }
+        ]
+    },
+    "sales_log": {
+        "keyword": [
+            "Sales Log",
+            "Seller Sales Log"
+        ],
+        "title": "Sales Log",
+        "icon": "las la-file-invoice-dollar",
+        "route_name": "seller.sell.log",
+        "menu_active": "seller.sell.log"
+    },
+    "transactions": {
+        "keyword": [
+            "Transactions",
+            "Seller Transactions",
+            "Transaction Management",
+            "Transaction Control"
+        ],
+        "title": "Transactions",
+        "icon": "las la-exchange-alt",
+        "route_name": "seller.transactions",
+        "menu_active": "seller.transactions"
+    },
+    "withdraw": {
+        "keyword": [
+            "Withdraw",
+            "Withdraw Management",
+            "Withdraw Control"
+        ],
+        "title": "Withdraw",
+        "icon": "la la-money",
+        "menu_active": "seller.withdraw*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Pending Withdrawals",
+                    "Withdrawal Management",
+                    "Withdrawal Control"
+                ],
+                "title": "Withdraw Money",
+                "route_name": "seller.withdraw",
+                "menu_active": "seller.withdraw"
+            },
+            {
+                "keyword": [
+                    "Withdraw History",
+                    "Withdrawal Management",
+                    "Withdrawal Control"
+                ],
+                "title": "Withdraw History",
+                "route_name": "seller.withdraw.history",
+                "menu_active": "seller.withdraw.history"
+            }
+        ]
+    },
+    "two_factor": {
+        "keyword": [
+            "2FA Security",
+            "Two Factor Authentication"
+        ],
+        "title": "2FA Security",
+        "icon": "la la-shield",
+        "route_name": "seller.twofactor",
+        "menu_active": "seller.twofactor"
+    },
+    "support": {
+        "keyword": [
+            "Support",
+            "Help Center",
+            "Customer Support"
+        ],
+        "title": "Support",
+        "icon": "las la-headset",
+        "route_name": "seller.ticket.index",
+        "menu_active": "seller.ticket.*"
+    },
+    "logout": {
+        "keyword": [
+            "Logout",
+            "Sign Out"
+        ],
+        "title": "Logout",
+        "icon": "las la-sign-out-alt",
+        "route_name": "seller.logout"
+    }
+}
